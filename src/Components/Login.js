@@ -39,7 +39,7 @@ export default function Login() {
           </button>
           <div className="divOfBrand">
             <img
-              src="./logoBg.png"
+              src={require('../MediaSrcSrc/logoBg.png')}
               className="imgBrandLogin"
               alt="Brand Logo"
             />

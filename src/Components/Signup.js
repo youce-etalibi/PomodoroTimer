@@ -11,7 +11,7 @@ export default function Signup() {
         </button>
 
         <div className="divOfBrand">
-          <img src="./logoBg.png" className="imgBrandLogin" />
+          <img src={require('../MediaSrcSrc/logoBg.png')} className="imgBrandLogin" />
         </div>
         <h1 className="titleSignIn"> Pomodoro Timer </h1>
         <h5 className="titleSignIn2"> Create Account </h5>

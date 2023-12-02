@@ -9,7 +9,7 @@ export default function ResetPassword() {
           <i class="bx bx-arrow-back"></i>
         </button>
         <div className="divOfBrand">
-          <img src="./logoBg.png" className="imgBrandLogin" alt="Brand Logo" />
+          <img src={require('../MediaSrcSrc/logoBg.png')} className="imgBrandLogin" alt="Brand Logo" />
         </div>
         <h1 className="titleLogIN"> Pomodoro Timer </h1>
         <h5 className="titleLogIN2"> - Reset Password - </h5>

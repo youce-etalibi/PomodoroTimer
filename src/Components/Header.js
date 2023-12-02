@@ -44,7 +44,7 @@ export default function Header() {
                   <td className="tdRank">{++index}</td>
                   <td className="tdRankImg">
                     <img
-                      src="./MediaSrc/user.png"
+                      src={require('../MediaSrcSrc/user.png')}
                       style={{ width: "30px", borderRadius: "50%" }}
                     />
                   </td>
@@ -104,7 +104,7 @@ export default function Header() {
       <div className="parentHeader">
         <div className="header">
           <Link to="/">
-            <img src="./logoBg.png" className="BrandLogo" />
+            <img src={require('../MediaSrcSrc/logoBg.png')} className="BrandLogo" />
           </Link>
           <ul className="listLinks">
             <li>
