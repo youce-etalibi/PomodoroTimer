@@ -12,7 +12,7 @@ export default function Accueil() {
   return (
     <Fragment>
       <div className="Application">
-        <BrowserRouter>
+        <BrowserRouter basename='/PomodoroTimer'>
           <Routes>
             <Route
               path="/"
